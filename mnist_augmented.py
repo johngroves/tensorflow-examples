@@ -64,5 +64,5 @@ columns = 4
 plt.figure(figsize=(10,10))
 for i, image in enumerate(combined_images):
     plt.subplot(len(combined_images) / columns + 1, columns, i + 1)
-    plt.imshow(image.reshape(28,28), cmap='gray')
+    plt.imshow(image.reshape(28,28))
 plt.show()
